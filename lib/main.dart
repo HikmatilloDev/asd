@@ -51,7 +51,14 @@ class _DiceAppState extends State<DiceApp> {
                 };
 //  print('right button got pressed');
               },
-                child: Image.asset('images/dice$rightImageNumber.png'),
+                                //##Column qo'ydim
+                child: Column(
+                childeren[
+                Image.asset('images/dice$rightImageNumber.png'),
+                  Text("bir ikki")
+                ]
+                )
+                      
               ),
             ),
           ],
